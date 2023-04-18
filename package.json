@@ -1,0 +1,18 @@
+{
+  "name": "mantine-storybook",
+  "homepage": "https://spigelli.github.io/mantine-storybook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "cd mantine && pnpm build-storybook -c ./configuration/storybook -o ../storybook-static ; cd ..",
+    "deploy-storybook": "gh-pages -d storybook-static",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [],
+  "author": "Isaac Spiegel",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
