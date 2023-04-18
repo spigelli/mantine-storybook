@@ -1,4 +1,4 @@
-# Mantine Storybook
+# Mantine Storybook ✨
 <p align="center">
   <img src="https://user-images.githubusercontent.com/25208877/232680233-4ca67e7e-b939-4122-8ecd-e2d2ed960712.png" alt="image" width="400" style="margin-right:20px"/>
   <img src="https://user-images.githubusercontent.com/25208877/232680306-1b443b4b-0fec-4ff1-8517-43934f6f0f8b.png" alt="image" width="400" style="padding-bottom:20px"/>
