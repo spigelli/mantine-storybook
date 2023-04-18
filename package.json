@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "predeploy": "cd mantine && pnpm build-storybook -c ./configuration/storybook -o ../storybook-static ; cd ..",
-    "deploy-storybook": "gh-pages -d storybook-static",
+    "deploy-storybook": "gh-pages -d storybook-static -r https://github.com/spigelli/mantine-storybook",
     "build-storybook": "build-storybook"
   },
   "keywords": [],
